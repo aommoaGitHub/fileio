@@ -9,9 +9,8 @@ There are 3 classes
 ![alt text](https://github.com/aommoaGitHub/fileio/blob/master/FilrIO_UML.png "UML_FileIO")
 
 UML of this project
-=====
 
-###Result
+##Result
 
 No.| Tasks                                                                       | Time
 ---|-----------------------------------------------------------------------------|-------------:
