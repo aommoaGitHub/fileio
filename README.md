@@ -7,7 +7,11 @@ There are 3 classes
 * Main for running the tasks
 
 ![alt text](https://github.com/aommoaGitHub/fileio/blob/master/FilrIO_UML.png "UML_FileIO")
+
 UML of this project
+=====
+
+###Result
 
 No.| Tasks                                                                       | Time
 ---|-----------------------------------------------------------------------------|-------------:
