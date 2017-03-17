@@ -41,7 +41,7 @@ public class FileUtil {
 				out.write(buffer);
 			}
 		} catch (IOException e) {
-			throw new RuntimeException();
+			throw new RuntimeException(e.getMessage(),e);
 		} finally {
 			try {
 				in.close();
@@ -72,7 +72,7 @@ public class FileUtil {
 				writer.write(line + "\n");
 			}
 		} catch (Exception re) {
-			throw new RuntimeException();
+			throw new RuntimeException(re.getMessage(),re);
 		} finally {
 			try {
 				reader.close();
@@ -104,7 +104,7 @@ public class FileUtil {
 				writer.write(line + "\n");
 			}
 		} catch (Exception re) {
-			throw new RuntimeException();
+			throw new RuntimeException(re.getMessage(),re);
 		} finally {
 			try {
 				reader.close();
